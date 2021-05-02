@@ -3,7 +3,6 @@
 - [Android SDK 下载](#android-sdk-下载)
 - [使用 Android Studio 进行本地集成（Gradle 编译环境）-支持 Java 和 Kotlin](#使用---android-studio-进行本地集成gradle-编译环境-支持-java-和-kotlin)
 - [配置完成 开始数据上报](#配置完成-开始数据上报)
-- [使用 jitpack 仓库进行远程集成](#使用-jitpack-仓库进行远程集成)
 - [手动配置集成（不推荐）](#手动配置集成不推荐)
 # 隐私条款
 - 条款1 使用量U的源码和库即意味着使用者同意该隐私条款
@@ -120,24 +119,6 @@ RP.pay(this, amount)    //amount 为订单的支付金额 单位为 分
 ```
 > 注意：对于适配了Android 6.0以上 (API >= 23) 的App，建议开发者在获得了动态权限之后，再调用SDK上报代码，否则SDK获取设备信息可能受影响。
 
-##### 使用 jitpack 仓库进行远程集成
-- 修改 Project 层面的 build.gradle
-```
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' } //添加这一行
-		}
-	}
-```
-- 修改 App Module 层面的 build.gradle
-```
-	dependencies {
-            .....
-	        implementation 'com.github.shuzibanshou:Lionsu-Android-SDK:1.2' //添加这一行
-	}
-```
-- 之后的流程和本地集成方式一样
 
 # 手动配置集成（不推荐）
 开发者也可直接修改 lionsu.aar 进行参数的配置，直接用解压工具打开 lionsu.arr，找到 assets 目录下的 lion-u-config.json 文件
