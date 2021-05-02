@@ -111,6 +111,7 @@ import com.android.reportx.util.RP;  //也可选中 RP 文本按 Alt+Enter 自�
 RP.launch(MainActivity.this)
 ```
 - 上报注册事件 请在注册完成的回调中调用以下代码：
+```
 RP.reg(this)
 ```
 - 上报付费事件 请在支付完成的回调中调用以下代码：
