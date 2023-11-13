@@ -4,6 +4,7 @@
 - [使用 Android Studio 进行本地集成（Gradle 编译环境）-支持 Java 和 Kotlin](#使用---android-studio-进行本地集成gradle-编译环境-支持-java-和-kotlin)
 - [配置完成 开始数据上报](#配置完成-开始数据上报)
 - [手动配置集成（不推荐）](#手动配置集成不推荐)
+
 # 隐私条款
 - 条款1 使用量U的源码和库即意味着使用者同意该隐私条款
 - 条款2 不得对库和二进制部分进行反向编译或逆向工程意图破解程序
@@ -12,13 +13,13 @@
 - 条款5 量U拥有对该隐私条款的最终解释权和修改权
 
 # 概述
-SDK接入属于量U系统的前端部分，负责采集设备信息进行脱敏传输，目前支持 Android 和 iOS，以后会支持 H5 和小程序
+lionu SDK接入属于量U系统的前端部分，负责采集设备信息进行脱敏传输，目前已支持 Android 和 iOS， H5 和小程序正在开发中
 Android SDK有两种集成方式，一种是自动打包SDK，另一种是手动配置集成
 
 # Android SDK 下载
 
-[github](https://github.com/shuzibanshou/Lionsu-Android-SDK-Library)
-[gitee](https://gitee.com/shuzibanshou/Lionsu-Android-SDK-Library)
+[Github](https://github.com/digitalevers/Lionu-Android-SDK)
+[Gitee](https://gitee.com/digitalevers/Lionu-Android-SDK)
 # 自动打包SDK集成（推荐）
 自动打包SDK不需要开发者配置域名等参数，直接下载的SDK已经是定制好的分包，直接调用SDK的方法即可，接入过程方便快捷
 
