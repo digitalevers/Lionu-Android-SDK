@@ -13,7 +13,7 @@
 - 条款5 量U拥有对该隐私条款的最终解释权和修改权
 
 # 概述
-lionu SDK接入属于量U系统的前端部分，负责采集设备信息进行脱敏传输
+Lionu SDK接入属于量U系统的前端部分，负责采集设备信息进行脱敏传输
 
 目前已支持 Android 和 iOS， H5 和小程序正在开发中
 Android SDK有两种集成方式，一种是自动打包SDK，另一种是手动配置集成
@@ -32,7 +32,7 @@ Android SDK有两种集成方式，一种是自动打包SDK，另一种是手动
 - 开发者点击下载SDK，此时系统会将此前填写的SDK上报域名、应用AppID等信息全部打包进SDK，下载后进行集成即可
 
 ##### 使用   Android Studio 进行本地集成（Gradle 编译环境）-支持 Java 和 Kotlin
-- 手动导入，将下载好的 lionsu.aar 库文件放入项目的 libs 目录下
+- 手动导入，将下载好的 lionu.aar 库文件放入项目的 libs 目录下
 图片
 - 修改 Project 层面的 build.gradle
 修改前
@@ -81,7 +81,7 @@ dependencies {
 .....
 dependencies {
     //下面是添加的内容
-    implementation(name: 'lionsu', ext: 'aar')
+    implementation(name: 'lionu', ext: 'aar')
     //
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.google.android.material:material:1.1.0'
@@ -124,7 +124,7 @@ RP.pay(this, amount)    //amount 为订单的支付金额 单位为 分
 
 
 # 手动配置集成（不推荐）
-开发者也可直接修改 lionsu.aar 进行参数的配置，直接用解压工具打开 lionsu.arr，找到 assets 目录下的 lion-u-config.json 文件
+开发者也可直接修改 lionu.aar 进行参数的配置，直接用解压工具打开 lionu.arr，找到 assets 目录下的 lion-u-config.json 文件
 ```
 {
   "host": "",
