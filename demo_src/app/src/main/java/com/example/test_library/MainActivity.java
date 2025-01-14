@@ -7,6 +7,7 @@ import com.android.reportx.util.RP;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.util.Log;
 import android.view.View;
 
 import android.view.Menu;
@@ -25,29 +26,22 @@ public class MainActivity extends AppCompatActivity {
         RP.debug = true;
         //上报激活
         Button activeBtn = findViewById(R.id.reportActive);
-        activeBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                RP.launch(MainActivity.this);
-            }
+        //Log.d("activeBtn",activeBtn.toString());
+        //高版本gradle构建时使用 new View.OnClickListener() 写法会报错, 需要改成lambda写法
+        activeBtn.setOnClickListener(view -> {
+            RP.launch(MainActivity.this);
         });
         //上报注册
         Button regBtn = findViewById(R.id.reportRegister);
-        regBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //RP.debug = true;
-                RP.reg(MainActivity.this);
-            }
+        regBtn.setOnClickListener(view -> {
+            RP.debug = true;
+            RP.reg(MainActivity.this);
         });
         //上报付费
         Button payBtn = findViewById(R.id.reportPay);
-        payBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //RP.debug = true;
-                RP.pay(MainActivity.this,10);
-            }
+        payBtn.setOnClickListener(view -> {
+            RP.debug = true;
+            RP.pay(MainActivity.this,10);
         });
     }
 
