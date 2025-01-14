@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b385f870-ce80-4543-8097-7abbf735b599" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_src/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_src/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_src/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_src/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_src/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_src/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_src/app/src/main/java/com/example/test_library/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_src/app/src/main/java/com/example/test_library/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_src/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo_src/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-    </list>
+    <list default="true" id="b385f870-ce80-4543-8097-7abbf735b599" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +49,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/star_sea/量U广告归因系统/项目源码/github/Lionu-Android-SDK/demo_src",
+    "last_opened_file_path": "D:/star_sea/Android_Kotlin/homekeeper",
     "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
